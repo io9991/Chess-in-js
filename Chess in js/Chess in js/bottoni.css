@@ -1,0 +1,69 @@
+#pulsante {
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 30px 80px;
+    border: solid 1px #ffffff;
+    background: #155a15;
+    -moz-border-radius: 40px;
+-webkit-border-radius: 40px;
+border-radius: 40px;
+font-family:"AlphaFridgeMagnets" ;
+}
+#pulsante:active {
+    position: relative;
+    top: 2px;
+    }
+
+#pulsante2{
+    outline: none;
+    cursor:pointer;
+    text-align: center;
+}
+
+
+
+#FlipButton{
+    outline:none;
+    cursor:pointer;
+    font-family:"AlphaFridgeMagnets"
+}
+
+#FlipButton:active{
+    position:relative;
+    top:2px;
+}
+
+#TakeButton{
+    outline:none;
+    cursor:pointer;
+    font-family:"AlphaFridgeMagnets"
+}
+
+#TakeButton:active{
+    position:relative;
+    top:2px;
+}
+
+#SearchButton{
+    outline:none;
+    cursor:pointer;
+    font-family:"AlphaFridgeMagnets"
+}
+
+#SearchButton:active{
+    position:relative;
+    top:2px;
+}
+
+#NewGameButton{
+    position: absolute;;
+    outline:none;
+    cursor:pointer;
+    font-family:"AlphaFridgeMagnets"
+}
+
+    

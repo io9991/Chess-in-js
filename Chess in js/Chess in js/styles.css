@@ -1,0 +1,120 @@
+
+
+#Board {
+	position: relative;
+	left: 60px;       
+	top: 20px;
+	width: 480px;
+	height: 480px;
+	border-style:solid;
+    border-width:2px;
+}
+
+#ThinkTimeChoice{
+	position: absolute;
+	left: 700px;
+	top:140px;
+	background-color: #c8ff00;
+box-sizing: content-box;
+}
+
+#Scritta{
+	position: absolute;
+	left:700px;
+	top:100px;
+	font-family:"AlphaFridgeMagnets" ;
+	font-size:xx-large;
+	
+}
+
+#ThinkingImageDiv {
+	position: absolute;
+	top: 140px;
+	left: 600px;
+}
+#GameStatus{
+	position: absolute;
+	top:300px;
+	left:700px;
+	font-family:"AlphaFridgeMagnets" ;
+                                     
+}
+
+#NewGameButton{
+	position: absolute;
+	top:510px;
+	left:700px;
+	font-family:"AlphaFridgeMagnets" ;
+}
+
+#Dati{
+	position:absolute;
+	top:30px;
+	left:700px;
+	font-family:"AlphaFridgeMagnets" ;
+
+}
+
+
+
+.Piece {
+	position: absolute;
+}
+
+.Square {
+	position: absolute;	
+	width: 60px;
+	height: 60px;
+}
+
+.Light {
+	background-color:#e2dfdf	;
+}
+
+.Dark {
+	background-color:rgb(73, 70, 70);
+}
+
+.SqSelected {
+	cursor: pointer;
+	background-color: rgba(192, 192, 245, 0.747);
+	
+}
+
+.clickElement { cursor:pointer }
+
+.colonna1 { top: 420px; }
+.colonna2 { top: 360px; }
+.colonna3 { top: 300px; }
+.colonna4 { top: 240px; }
+.colonna5 { top: 180px; }
+.colonna6 { top: 120px; }
+.colonna7 { top: 60px; }
+.colonna8 { top: 0px; }
+
+.fila1 { left: 0px; }
+.fila2 { left: 60px; }
+.fila3 { left: 120px; }
+.fila4 { left: 180px; }
+.fila5 { left: 240px; }
+.fila6 { left: 300px; }
+.fila7 { left: 360px; }
+.fila8 { left: 420px; }
+
+.colonna8flip { top: 420px; }
+.colonna7flip { top: 360px; }
+.colonna6flip { top: 300px; }
+.colonna5flip { top: 240px; }
+.colonna4flip { top: 180px; }
+.colonna3flip { top: 120px; }
+.colonna2flip { top: 60px; }
+.colonna1flip { top: 0px; }
+
+.fila8flip { left: 0px; }
+.fila7flip { left: 60px; }
+.fila6flip { left: 120px; }
+.fila5flip { left: 180px; }
+.fila4flip { left: 240px; }
+.fila3flip { left: 300px; }
+.fila2flip { left: 360px; }
+.fila1flip { left: 420px; }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Chess, Engine, Javascript, Play Chess, Chess Program, Javascript Chess, Game">
+		<title>CATTURA IL LADRO</title>
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		<link href="bottoni.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript"> if (!window.console) console = {log: function() {}}; </script>
+	
+	</head>
+	<body bgcolor="#FF7F27">
+		
+		
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; <button type="button" style="background-color:#FF7F27;" id="SearchButton"><font size="20">&nbsp;&nbsp;<img src="immagini/lampadinascacchi.png">&nbsp;&nbsp;</font></button>             
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style="background-color: #FF7F27;" id="FlipButton"><font size="20";>&nbsp;&nbsp;☯&nbsp;&nbsp;</font></button>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style="background-color: #FF7F27;" id="TakeButton"><font size="25">&nbsp;&nbsp;←&nbsp;&nbsp;</font></button>
+	
+	<br><font face="Century Gothic"><font size="10"><font color="#155a15"><span id="GameStatus"></span></font></font></font>
+
+
+</div>
+		<div id="Board">
+</div>
+
+	
+	<div id="Scritta"><font color=#155a15>SCEGLI IL TEMPO:</br></div>
+		
+			<select id="ThinkTimeChoice">
+             <option value="2">2s</option>
+             <option value="4">4s</option>  
+             <option value="6">6s</option>
+             <option value="8">8s</option>
+             <option value="10">10s</option>
+			</select><br/><br/><br/>
+			
+			<br><br><br><br><br>
+			<div id="Dati">
+			<font face="Century Gothic"><font size="5">DATI PARTITA:</font></font>
+			<br>
+			<span id="BestOut"><b>MigliorMossa:</b></span>
+			<span id="PunteggioOut"><b>Punteggio:</b></span>
+			
+			<span id="OrderingOut"><b>Ordering:</b></span>
+			<span id="TimeOut"><b>Time:</b></span>
+			</div>
+			
+			<br><br><br>
+			<div><center><br><button type="button" style="background-color: #FF7F27;" id="NewGameButton"><font size="67"><font color=#155a15>&nbsp;&nbsp;NUOVA PARTITA&nbsp;&nbsp;</font></center></font></center></button>
+		</div>
+		
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="js/inizializzazioni.js"></script>
+		<script src="js/mossemie.js"></script>
+		<script src="js/Scacchieraimpostazioni.js"></script>
+		<script src="js/mosseingenerale.js"></script>
+		<script src="js/creazionedellemosse.js"></script>
+		<script src="js/perft.js"></script>
+		<script src="js/valutazioni.js"></script>
+		<script src="js/pvt.js"></script>
+		<script src="js/ricercadati.js"></script>
+		<script src="js/protocol.js"></script>
+		<script src="js/mossesue.js"></script>
+		<script src="js/main.js"></script>
+		
+	</body>
+</html>
